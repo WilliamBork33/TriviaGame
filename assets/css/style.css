@@ -1,0 +1,36 @@
+.container-fluid {
+    text-align: center;
+    
+}
+
+.row {
+    text-align: center;
+    
+    background-color: rgb(229, 199, 143);
+}
+
+
+
+.p {
+    text-align: center;
+}
+
+#answer-a {
+    color: yellowgreen;
+    background-color: blueviolet;
+}
+
+#answer-b {
+    color: yellowgreen;
+    background-color: blue;
+}
+#answer-c {
+    color: yellowgreen;
+    background-color: red;
+}
+
+#answer-d {
+    color: yellowgreen;
+    background-color: gray;
+}
+<!-- just checking out if this will cross over to windows. -->

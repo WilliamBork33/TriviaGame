@@ -46,7 +46,7 @@ var incorrect = 0;
 
 
 //jQuery onClick events.
-$("#answer-a, #answer-b, #answer-c, #answer-d").on("click", selectAnswer)
+$("#button-a, #button-b, #button-c, #button-d").on("click", selectAnswer)
 
 //Function to translate user's click (choice) to a saved variable and alerts it to the screen.
 function selectAnswer()
@@ -61,12 +61,12 @@ function selectAnswer()
         if ( $(selectedAnswer).text() == $(correctAnswer).text() )
         {
             correct++;
-            document.getElementById("correct").innerHTML = correct;
+            document.getElementById("numberCorrect").innerHTML = correct;
         }
         else
         {
             incorrect++;
-            document.getElementById("incorrect").innerHTML = incorrect;
+            document.getElementById("numberIncorrect").innerHTML = incorrect;
         }
     }
     //Call the actual answer checking function.
